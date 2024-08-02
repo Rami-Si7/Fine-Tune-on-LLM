@@ -1,5 +1,7 @@
 # Fine-Tune-on-LLM
 Given a dataset of courses from Coursera Courses &amp; Skills dataset 2024. We want to generate course titles based on skills. To achieve our goal, we are going to fine tune a large language model on the dataset to generate course titles.
+
+
 Our approach was to use the pre-trained FLAN-T5-base Model with SEQ2SEQ LM encoder-decoder architecture.
 We loaded the data and splited it to train and test.
 We defined a custom class that process the data and tokenize it.
